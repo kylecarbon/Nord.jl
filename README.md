@@ -8,6 +8,7 @@ Exported dictionaries include: `NordColours`, `PolarNight`, `SnowStorm`, `Frost`
 These match those described on the original nord project.
 
 ### Convenience types
-* All of the nord colours can be accessed via `Nord.nord0`, `Nord.nord8`, etc.
-* Colours: `black`, `grey`, `white`, `blue`, `red`, `orange`, `yellow`, `green`.
-* Debugging: `info`, `debug`, `pass`, `warn`, `fail`, `error`.
+Within the `Nord` module, you can access the following convenience variables:
+* all of the nord colours, e.g. `nord0`, `nord8`, etc.
+* colours: `black`, `grey`, `white`, `blue`, `red`, `orange`, `yellow`, `green`
+* debugging: `info`, `debug`, `pass`, `warn`, `fail`, `error`
