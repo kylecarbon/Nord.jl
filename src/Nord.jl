@@ -3,27 +3,27 @@
 
 module Nord
 
-using ColorTypes, FixedPointNumbers
+using Colors, ColorTypes, FixedPointNumbers
 
 # Dictionaries of colours
 export NordColours, PolarNight, SnowStorm, Frost, Aurora
 
-const nord0 = RGB{N0f8}(46/255, 52/255, 64/255)
-const nord1 = RGB{N0f8}(59/255, 66/255, 82/255)
-const nord2 = RGB{N0f8}(67/255, 76/255, 94/255)
-const nord3 = RGB{N0f8}(76/255, 86/255, 106/255)
-const nord4 = RGB{N0f8}(216/255, 222/255, 233/255)
-const nord5 = RGB{N0f8}(229/255, 233/255, 240/255)
-const nord6 = RGB{N0f8}(236/255, 239/255, 244/255)
-const nord7 = RGB{N0f8}(143/255, 188/255, 187/255)
-const nord8 = RGB{N0f8}(136/255, 192/255, 208/255)
-const nord9 = RGB{N0f8}(129/255, 161/255, 193/255)
-const nord10 = RGB{N0f8}(94/255, 129/255, 172/255)
-const nord11 = RGB{N0f8}(191/255, 97/255, 106/255)
-const nord12 = RGB{N0f8}(208/255, 135/255, 112/255)
-const nord13 = RGB{N0f8}(235/255, 203/255, 139/255)
-const nord14 = RGB{N0f8}(163/255, 190/255, 140/255)
-const nord15 = RGB{N0f8}(180/255, 142/255, 173/255)
+const nord0 = colorant"#2E3440"
+const nord1 = colorant"#3B4252"
+const nord2 = colorant"#434C5E"
+const nord3 = colorant"#4C566A"
+const nord4 = colorant"#D8DEE9"
+const nord5 = colorant"#E5E9F0"
+const nord6 = colorant"#ECEFF4"
+const nord7 = colorant"#8FBCBB"
+const nord8 = colorant"#88C0D0"
+const nord9 = colorant"#81A1C1"
+const nord10 = colorant"#5E81AC"
+const nord11 = colorant"#BF616A"
+const nord12 = colorant"#D08770"
+const nord13 = colorant"#EBCB8B"
+const nord14 = colorant"#A3BE8C"
+const nord15 = colorant"#B48EAD"
 
 const black = nord0
 const grey = nord3
