@@ -10,9 +10,9 @@ FixedPointNumbers = "53c48c17-4a7d-5ca2-90c5-79b7896eea93"
 
 [compat]
 julia = "1.7.0"
-ColorTypes = "0.7.0 - 1"
-Colors = "0.10.0 - 1"
-FixedPointNumbers = "0.7.0 - 1"
+ColorTypes = "< 1.0.0"
+Colors = "< 1.0.0"
+FixedPointNumbers = "< 1.0.0"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
