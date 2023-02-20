@@ -1,7 +1,7 @@
 name = "Nord"
 uuid = "0e1eec36-3e51-505b-9453-8db846dc2724"
 authors = ["Kyle Carbon <kylecarbon@gmail.com>"]
-version = "0.2.0"
+version = "0.3.0"
 
 [deps]
 ColorTypes = "3da002f7-5984-5a60-b8a6-cbb66c0b333f"
