@@ -73,7 +73,7 @@ const SnowStorm = Dict("nord4" => nord4,
 const Frost = Dict("nord7" => nord7,
                    "nord8" => nord8,
                    "nord9" => nord9,
-                   "nord10" => nord10,                   
+                   "nord10" => nord10,
                   )
 
 const Aurora = Dict("nord11" => nord11,
